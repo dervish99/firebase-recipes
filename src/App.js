@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="App">
-        <h1 className="title">Firebase Recipes</h1>
+        <h1 className="title">Firebase Recipes v02</h1>
       </div>
     </div>
   );
