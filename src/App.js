@@ -20,8 +20,8 @@ function App() {
   return (
     <div className="App">
       <div className="App">
-        <h1 className="title">Firebase Recipes v02</h1>
-        <LoginForm existingUser={user}></LoginForm>
+        <h1 className="title">Firebase Recipes v03</h1>
+        <LoginForm existingUser={user}>huiiyiyiyi</LoginForm>
       </div>
     </div>
   );
