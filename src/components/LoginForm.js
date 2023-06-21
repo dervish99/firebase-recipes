@@ -12,7 +12,7 @@ function LoginForm({ existingUser }) {
 
     //try/catch best pratcie for handling js asyn requests and promises
     try {
-      await FirebaseAuthService.registerUser(username, password);
+      await FirebaseAuthService.loginUser(username, password);
       setUsername("");
       setPassword("");
     } catch (error) {
@@ -59,7 +59,7 @@ function LoginForm({ existingUser }) {
             />
           </label>
           <div className="button-box">
-            <button className="primary-button">Submit</button>
+            <button className="primary-button">Login</button>
           </div>
         </form>
       )}
