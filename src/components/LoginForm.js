@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
 import FirebaseAuthService from "../FirebaseAuthService";
+import React from 'react';
 
 function LoginForm({ existingUser }) {
   const [username, setUsername] = useState("");
