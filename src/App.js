@@ -4,6 +4,8 @@ import FirebaseAuthService from "./FirebaseAuthService";
 import logo from "./logo.svg";
 import "./App.css";
 import LoginForm from "./components/LoginForm";
+import React from "react";
+
 // eslint-disable-next-line no-unused-vars
 // not required as importaint Auth service:
 //import firebase from "./FirebaseConfig";
